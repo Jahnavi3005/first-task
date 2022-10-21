@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" href="navigation.css"/>
+	<style type="text/css">
+		body{
+			background-image: url(https://cdn.woorise.com/template/wp-content/uploads/sites/62/2021/02/online-registration-background.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+
+		}
+		.registration-page{
+			border: 2px solid black;
+			width: 20%;
+			margin-left: 38%;
+			margin-top: 4.5%;
+			padding: 2%;
+			border-radius: 10px;
+			text-align: center;
+		}
+		.registration-page input{
+			padding: 2%;
+			margin-bottom: 5%;
+		}
+		.btn-submit{
+			background-color: lemonchiffon;
+			color: black;
+			padding: 5%;
+			width: 30%;
+			margin-top: 5%;
+		}
+		.heading{
+			margin-bottom: 4%;
+		}
+	</style>
+</head>
+<body>
+		<nav class="navbar">
+			<a href="new register.html">Register</a>
+			<a href="login.html">Login</a>
+			<a href="biography.html">Biography</a>
+			<a href="photos.html">Photos</a>
+		</nav>
+	<form class="registration-page" action="login.html">
+		<p class="heading"><b>REGISTRATION PAGE</b></p>
+		<p><input type="text" placeholder="Enter name" required/></p>
+		<p><input type="email" placeholder="Enter email address" required/></p>
+		<p><input type="password" placeholder="Enter password" required/></p>
+		<p><input type="password" placeholder="Confirm password" required/></p>
+		<p><input type="number" placeholder="Enter mobile number" required/></p>
+		<p><input type="date" required /></p>
+		<p>
+			<input type="radio" value="male" name="gender" required/>Male
+			<input type="radio" value="female" name="gender" required/>Female
+		</p>
+		<p>
+			<select>
+				<option value="select course">select course</option>
+				<option value="mpc">MPC</option>
+				<option value="mec">MEC</option>
+				<option value="cec">CEC</option>
+			</select>
+		</p>
+		<button class="btn-submit">Submit</button>
+	</form>
+</body>
+</html>
